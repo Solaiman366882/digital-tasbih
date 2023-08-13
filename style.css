@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+.tasbih-section{
+    max-width: 100vw;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #17594A;
+    padding: 30px;
+}
+h3{
+    font-family: 'Ruwudu', serif;
+    font-size: 3.6rem;
+    color: transparent;
+    -webkit-text-stroke: 2px #B31312;
+}
+h1{
+    font-size: 4.2rem;
+    background: url('./heding-bg.jpg') center no-repeat;
+    background-size: cover;
+    text-transform: uppercase;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    /* text-shadow: 1px 1px #164B60; */
+    margin-bottom: 10px;
+
+}
+h2{
+    font-size: 2rem;
+    color: #000000c5;
+}
+.tasbih-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.tasbih-container .single-tasbih {
+    min-width: 340px;
+    flex: 1;
+    background-color: #fafafa;
+    padding: 10px 15px;
+    box-shadow: 9px 1px 11px 5px #0000003d;
+    border-radius: 6px;
+}
+button.btn{
+    padding: 10px 15px;
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    background: #3EC70B;
+    color: #fff;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+button.btn-2{
+    background: #3B44F6;
+    margin-left: 1.2rem;
+}
+p{
+    font-size: 2.6rem;
+    color: #000;
+    margin: 15px 0;
+}
